@@ -17,10 +17,10 @@
 /* fine caratteristiche globali */
 /* TESTA e paragrafi semplici */
 header{
-    background-color: rebeccapurple;
+    background-color: lightskyblue;
 }
 .paragrafo1{
-    background-color: red;
+    background-color: cornflowerblue;
     margin: 10px auto;
 }
 footer{
@@ -31,15 +31,15 @@ footer{
 /* tre colonne */
 
 .lati{
-    width: calc ((100% / 5) -20px);
+    width: calc((100% / 5) - 10px);
     margin: 5px;
     background-color: slategray;
     float: left;
 }
 .centro{
-    width: calc ((100% / 5) * 3-10px);
+    width: calc((100% / 5) * 3 - 10px);
     margin: 5px;
-    background-color: springgreen;
+    background-color: slategray;
     float: left;
 }
 .box1{
