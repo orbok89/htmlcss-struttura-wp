@@ -1,5 +1,23 @@
+/* caratteristiche globali */
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+.contenitore{
+    width: 80%;
+    margin: 10px auto;
+}
+/* fine caratteristiche globali */
+/* TESTA e paragrafi semplici */
+header{
+    background-color: rebeccapurple;
+}
+.paragrafo1{
+    background-color: red;
+    margin: 10px auto;
+}
+footer{
+    background-color: saddlebrown;
+    margin: 10px auto;
 }
