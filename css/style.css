@@ -8,6 +8,12 @@
     width: 80%;
     margin: 10px auto;
 }
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* fine caratteristiche globali */
 /* TESTA e paragrafi semplici */
 header{
@@ -20,4 +26,26 @@ header{
 footer{
     background-color: saddlebrown;
     margin: 10px auto;
+}
+/* fine testa ecc */
+/* tre colonne */
+
+.lati{
+    width: calc ((100% / 5) -20px);
+    margin: 5px;
+    background-color: slategray;
+    float: left;
+}
+.centro{
+    width: calc ((100% / 5) * 3-10px);
+    margin: 5px;
+    background-color: springgreen;
+    float: left;
+}
+.box1{
+    background-color: tomato;
+}
+/* fine 3 colonne */
+.nomarginesotto{
+    margin-bottom: 0;
 }
